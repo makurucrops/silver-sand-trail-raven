@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/partnerships",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1817,
+      "bodyTextHash": "c7d90816cf29a32531d351989814364a89ec47137d587bcffce35077386e3c1a",
+      "bodyTextPrefix": "ECO VIBE SAFARI HOME DESTINATIONS TANZANIA TRIPS EXPERIENCES GAL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/partnerships.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1749,
+      "bodyTextHash": "b038f40c4e7ea40e7bd0bfd46ca8910f20d8dd03d451fa63593e9f60f8b89f2a",
+      "bodyTextPrefix": "ECO VIBE SAFARI ENG PARTNERSHIP Who we work with Lodges, parks, ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/partnerships-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/partnerships.json"
+}

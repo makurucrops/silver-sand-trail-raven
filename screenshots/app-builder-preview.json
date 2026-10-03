@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 3542,
+      "bodyTextHash": "4ef49db763a41d85e567af5f70e03195e64954b407a41ffa3814b1a3226420c3",
+      "bodyTextPrefix": "ECO VIBE SAFARI HOME DESTINATIONS TANZANIA TRIPS EXPERIENCES GAL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 3474,
+      "bodyTextHash": "6ce5a484e09a700121aec1d4b8f826c17ea40043413afeb3de81387aab80e0ea",
+      "bodyTextPrefix": "ECO VIBE SAFARI ENG ARUSHA · TANZANIA Welcome to Eco Vibe Safari",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

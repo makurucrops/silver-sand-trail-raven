@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/explore-tanzania",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1681,
+      "bodyTextHash": "6198814f2abddd02f3b75f24e92f22b5666c5918daf518c60b3f21672de97797",
+      "bodyTextPrefix": "ECO VIBE SAFARI HOME DESTINATIONS TANZANIA TRIPS EXPERIENCES GAL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/tanzania.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1613,
+      "bodyTextHash": "38adba8aef74b7015b036866f513753ee0263d38ed0232a4263aac3f60c398cb",
+      "bodyTextPrefix": "ECO VIBE SAFARI ENG EXPLORE TANZANIA Parks, crater, peaks and ti",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/tanzania-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/tanzania.json"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/destinations",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1566,
+      "bodyTextHash": "f3624fa17e9ddf81d59e2e78eb85e7d1e482cdb2f2593dcc4e3070a35d56c341",
+      "bodyTextPrefix": "ECO VIBE SAFARI HOME DESTINATIONS TRIPS EXPERIENCES GALLERY ENG ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/destinations.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1507,
+      "bodyTextHash": "3d8216eb352867bdd2e949e88c59a337eb134204fdf81796e8f218a8fda501d4",
+      "bodyTextPrefix": "ECO VIBE SAFARI ENG EXPLORE Destinations East and southern Afric",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/destinations-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/destinations.json"
+}

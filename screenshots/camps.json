@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/camps",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 975,
+      "bodyTextHash": "878e80cc8e914a5cb38a01ae930c7a3d4672dd4ca60530ef1babcd37bc0f3922",
+      "bodyTextPrefix": "ECO VIBE SAFARI HOME DESTINATIONS TANZANIA TRIPS EXPERIENCES GAL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/camps.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 907,
+      "bodyTextHash": "bd2d9cdfe39ba18b08158cf03fbe77fe413f35f39f6d58491bd2a3f33636e898",
+      "bodyTextPrefix": "ECO VIBE SAFARI ENG SLEEP Camps & lodges Canvas, lodges and beac",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/camps-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/camps.json"
+}

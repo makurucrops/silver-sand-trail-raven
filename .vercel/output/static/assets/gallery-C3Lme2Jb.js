@@ -1,0 +1,1 @@
+import{c as e}from"./inner-pages-Bondv9xU.js";import{n as t}from"./site-shell-CtpoLkTi.js";import{i as n}from"./index-DDgOrULS.js";var r=n(),i=()=>(0,r.jsx)(t,{children:(0,r.jsx)(e,{})});export{i as component};

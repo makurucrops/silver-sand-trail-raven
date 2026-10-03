@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/about",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1881,
+      "bodyTextHash": "96b465b79acd1bcb62c6954bf9ca9710f43134122d23ebd1a0e44563ac80a925",
+      "bodyTextPrefix": "ECO VIBE SAFARI HOME DESTINATIONS TANZANIA TRIPS EXPERIENCES GAL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/about.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1813,
+      "bodyTextHash": "38ee89ba0bc5e9658cbbead9540293798b7ee44cdb5f2c5f9668d4857cc13684",
+      "bodyTextPrefix": "ECO VIBE SAFARI ENG ABOUT A local Arusha safari house Feel natur",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/about-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/about.json"
+}

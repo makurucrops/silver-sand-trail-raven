@@ -1,0 +1,77 @@
+ECO VIBE SAFARI — HD media download links
+=========================================
+
+BACKGROUND VIDEOS (copy these next to eco-vibe-safari.html)
+-----------------------------------------------------------
+These were generated for the live site. They are in this same folder:
+
+  maasai.mp4          — Maasai jumping (hero video 1)
+  leopard.mp4         — Leopard in the bush (hero video 2)
+  safari-drive.mp4    — Safari vehicle drive (extra, not currently in hero)
+  poster-maasai.jpg   — Still frame / poster for Maasai clip
+  poster-leopard.jpg  — Still frame / poster for leopard clip
+
+If this HTML is opened from the folder that contains those MP4 files,
+the hero videos play automatically.
+
+HERO STILL (tree + sun)
+-----------------------
+HD:  https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=2400&q=90
+4K:  https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=3840&q=90
+Raw: https://unsplash.com/photos/1547471080-7cc2caa01a7e
+
+OTHER HD PHOTOS USED ON THE SITE
+--------------------------------
+Serengeti / vehicle sunset:
+  https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=2400&q=90
+
+Elephants / Tarangire:
+  https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=2400&q=90
+
+Kilimanjaro:
+  https://images.unsplash.com/photo-1609198092458-38a293c7ac4b?auto=format&fit=crop&w=2400&q=90
+  https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=2400&q=90
+
+Zanzibar:
+  https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=2400&q=90
+
+Maasai Mara / Kenya:
+  https://images.unsplash.com/photo-1547970810-dcad79a56c1e?auto=format&fit=crop&w=2400&q=90
+
+Maasai / culture:
+  https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&w=2400&q=90
+
+Forest / Uganda:
+  https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=2400&q=90
+
+Savanna landscape:
+  https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=2400&q=90
+
+Lake (Lake Duluti):
+  https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=2400&q=90
+
+Lodge:
+  https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=2400&q=90
+
+Luxury lodge / pool:
+  https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=2400&q=90
+
+Hotel / garden lodge:
+  https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=2400&q=90
+
+Mountains / Meru / Rwanda:
+  https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2400&q=90
+
+Arusha NP / hills:
+  https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=2400&q=90
+
+Botswana / water:
+  https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=2400&q=90
+
+HOW TO USE
+----------
+1. Open eco-vibe-safari.html in a browser.
+2. Keep maasai.mp4 and leopard.mp4 in the SAME folder as the HTML so the
+   hero videos play. If the videos are missing, the posters/photos still show.
+3. Click any Unsplash link above, then use the download button on Unsplash
+   for the original file, or save the direct 2400px URL.

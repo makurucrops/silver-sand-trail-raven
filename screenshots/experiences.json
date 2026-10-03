@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/experiences",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1061,
+      "bodyTextHash": "7749db273c565e0dc85a837426120e081bc9fb612bb7dd0dc1138d6b1c16a1a1",
+      "bodyTextPrefix": "ECO VIBE SAFARI HOME DESTINATIONS TANZANIA TRIPS EXPERIENCES GAL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/experiences.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 993,
+      "bodyTextHash": "01e1c575da699c7ae4e6c0a008312d45813066f180af9962ff05808eabdc5658",
+      "bodyTextPrefix": "ECO VIBE SAFARI ENG EXPERIENCES Small group, family, private Sma",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/experiences-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/experiences.json"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/pricing",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 4415,
+      "bodyTextHash": "95203c1648c22c0fed5a7c820986ea1b481ac514de51d8965282198c5a8edf23",
+      "bodyTextPrefix": "ECO VIBE SAFARI HOME DESTINATIONS TANZANIA TRIPS EXPERIENCES GAL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/pricing.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 4347,
+      "bodyTextHash": "8ad5a33ce0b358c0f9d3ae43ed9363be835fe6ee4328a1eb45cbd14c369570b5",
+      "bodyTextPrefix": "ECO VIBE SAFARI ENG PRICING Packages from Arusha Feel natural, l",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/pricing-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/pricing.json"
+}

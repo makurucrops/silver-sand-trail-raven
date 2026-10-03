@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/hiking",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1856,
+      "bodyTextHash": "a7362a13c6d3aec92b3117fc234ecba999c883c5db40c49c8a86c496a1467948",
+      "bodyTextPrefix": "ECO VIBE SAFARI HOME DESTINATIONS TANZANIA TRIPS EXPERIENCES GAL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/hiking.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Eco Vibe Safari",
+      "hasCanvas": false,
+      "bodyTextLen": 1788,
+      "bodyTextHash": "24cac2953cb036104435b9700780f939f283a2c312fb422cf10ff670af7c4b0f",
+      "bodyTextPrefix": "ECO VIBE SAFARI ENG HIKING Three peaks from Arusha Kilimanjaro, ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/hiking-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/hiking.json"
+}
