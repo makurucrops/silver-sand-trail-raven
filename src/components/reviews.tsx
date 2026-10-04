@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BadgeCheck, ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { testimonials } from "@/data/content";
 import { useT } from "@/lib/lang";
@@ -82,13 +82,52 @@ export function Reviews() {
   const t = useT();
   const count = testimonials.length;
   const scroller = useRef<HTMLDivElement>(null);
+  const pauseUntil = useRef(0);
   const [openQuote, setOpenQuote] = useState<string | null>(null);
+  const openQuoteRef = useRef(openQuote);
+  openQuoteRef.current = openQuote;
+
+  const hold = () => {
+    pauseUntil.current = Date.now() + 8000;
+  };
 
   const scrollByCard = (dir: number) => {
     const el = scroller.current;
     if (!el) return;
-    el.scrollBy({ left: dir * Math.min(280, el.clientWidth * 0.85), behavior: "smooth" });
+    hold();
+    const card = el.querySelector("article");
+    const step = card ? card.getBoundingClientRect().width + 12 : Math.min(280, el.clientWidth * 0.85);
+    el.scrollBy({ left: dir * step, behavior: "smooth" });
   };
+
+  useEffect(() => {
+    const mobile = window.matchMedia("(max-width: 767px)");
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let timer = 0;
+
+    const tick = () => {
+      if (Date.now() < pauseUntil.current || openQuoteRef.current) return;
+      const node = scroller.current;
+      if (!node) return;
+      const card = node.querySelector("article");
+      const step = (card?.getBoundingClientRect().width ?? 240) + 12;
+      const atEnd = node.scrollLeft + node.clientWidth >= node.scrollWidth - 16;
+      node.scrollTo({ left: atEnd ? 0 : node.scrollLeft + step, behavior: "smooth" });
+    };
+
+    const start = () => {
+      window.clearInterval(timer);
+      if (!mobile.matches || reduce.matches) return;
+      timer = window.setInterval(tick, 3800);
+    };
+
+    start();
+    mobile.addEventListener("change", start);
+    return () => {
+      window.clearInterval(timer);
+      mobile.removeEventListener("change", start);
+    };
+  }, []);
 
   return (
     <section className="overflow-x-hidden bg-cream px-5 py-12 sm:px-6 sm:py-16">
@@ -199,6 +238,7 @@ export function Reviews() {
             </button>
             <div
               ref={scroller}
+              onPointerDown={hold}
               className="flex snap-x snap-mandatory gap-3 overflow-x-auto px-10 pb-2 sm:gap-4 sm:px-8 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
             >
               {testimonials.map((item, i) => {

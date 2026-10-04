@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { countries, experiences, tanzaniaParks, tours } from "@/data/content";
 import { useT } from "@/lib/lang";
-import { Diamond, SectionHead, pair } from "./section-head";
+import { SectionHead, pair } from "./section-head";
 import { HeroStage } from "./hero-stage";
 import { Reviews } from "./reviews";
 import { SiteShell } from "./site-shell";
@@ -13,66 +13,92 @@ export function HomePage() {
     <SiteShell>
       <HeroStage />
 
-      <section className="relative z-10 -mt-10 rounded-t-[2.5rem] bg-cream px-4 pt-14 pb-16 shadow-[0_-18px_40px_rgba(60,36,18,0.18)] sm:-mt-14 sm:px-6 sm:pt-16">
-        <div className="mb-10 flex justify-center">
-          <Diamond />
+      <section className="grid md:grid-cols-2">
+        <div className="relative min-h-[26rem] sm:min-h-[32rem] md:min-h-[40rem]">
+          <img
+            src="/intro/camp.jpg"
+            alt=""
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-ink/20" />
+          <p className="absolute inset-x-0 top-8 text-center text-xs font-semibold tracking-[0.42em] text-paper uppercase sm:top-12 sm:text-sm">
+            {t("Introducing", "Tunakuleta", {
+              fr: "Présentation",
+              de: "Vorstellung",
+              zh: "介绍",
+              es: "Presentamos",
+              ru: "Представляем",
+            })}
+          </p>
+          <div className="absolute top-1/2 left-1/2 flex size-36 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-paper px-4 text-center shadow-lg sm:size-48">
+            <p className="font-display text-lg leading-tight font-semibold text-ink sm:text-2xl">
+              {t("The Eco Vibe way.", "Njia ya Eco Vibe.", {
+                fr: "La voie Eco Vibe.",
+                de: "Der Eco-Vibe-Weg.",
+                zh: "Eco Vibe 方式。",
+                es: "El modo Eco Vibe.",
+                ru: "Путь Eco Vibe.",
+              })}
+            </p>
+          </div>
+          <p className="absolute inset-x-0 bottom-7 text-center text-[11px] font-semibold tracking-[0.32em] text-paper uppercase sm:bottom-10 sm:text-sm">
+            {t("Safari camp", "Kambi ya safari", {
+              fr: "Camp safari",
+              de: "Safaricamp",
+              zh: "游猎营地",
+              es: "Campamento safari",
+              ru: "Сафари-лагерь",
+            })}
+          </p>
         </div>
-        <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
-          <div className="flex items-center justify-center rounded-xl border border-sand bg-paper px-6 py-8 shadow-sm">
-            <img
-              src="/logo.jpg"
-              alt="Eco Vibe Safari logo"
-              className="mx-auto h-auto w-full max-w-[17rem] object-contain"
-            />
-          </div>
-          <div>
-            <p className="text-xs font-semibold tracking-[0.22em] text-sunset uppercase">
-              {t("Who we are", "Sisi ni nani", {
-                fr: "Qui nous sommes",
-                de: "Wer wir sind",
-                zh: "我们是谁",
-                es: "Quiénes somos",
-                ru: "Кто мы",
-              })}
-            </p>
-            <h2 className="mt-2 font-display text-3xl font-semibold sm:text-4xl">
-              {t("A local Arusha safari house", "Nyumba ya safari ya Arusha", {
-                fr: "Une maison safari à Arusha",
-                de: "Ein lokales Safari-Haus in Arusha",
-                zh: "阿鲁沙本地safari之家",
-                es: "Una casa safari local en Arusha",
-                ru: "Местный сафари-дом в Аруше",
-              })}
-            </h2>
-            <div className="mt-3">
-              <Diamond />
-            </div>
-            <p className="mt-5 leading-relaxed text-muted">
-              {t(
-                "Eco Vibe Safari is a local company in Arusha. We run responsible game drives across East and southern Africa, guided treks on Kilimanjaro and Mount Meru, and quiet days with cultural food, camps and the people who live beside the parks.",
-                "Eco Vibe Safari ni kampuni ya ndani Arusha. Tunaendesha game drives zenye uwajibikaji Afrika Mashariki na Kusini, trek za Kilimanjaro na Mount Meru, na siku tulivu za chakula cha kitamaduni.",
-                {
-                  fr: "Eco Vibe Safari est une maison locale à Arusha. Safaris responsables, treks du Kilimandjaro et du Meru, cuisine culturelle et camps discrets.",
-                  de: "Eco Vibe Safari ist ein lokales Haus in Arusha. Verantwortliche Gamedrives, Treks auf Kilimandscharo und Meru, kulturelle Küche und stille Camps.",
-                  zh: "Eco Vibe Safari是阿鲁沙本地公司。我们在东非与南部非洲做负责任的巡游、乞力马扎罗与梅鲁徒步，以及文化美食与营地。",
-                  es: "Eco Vibe Safari es una casa local en Arusha. Safaris responsables, treks al Kilimanjaro y Meru, comida cultural y campamentos serenos.",
-                  ru: "Eco Vibe Safari — местная компания в Аруше. Ответственные сафари, треки на Килиманджаро и Меру, культурная кухня и тихие лагеря.",
-                },
-              )}
-            </p>
-            <Link
-              to="/about"
-              className="mt-6 inline-flex min-h-11 items-center text-sm font-semibold text-forest"
-            >
-              {t("Read more", "Soma zaidi", {
-                fr: "Lire plus",
-                de: "Mehr lesen",
-                zh: "了解更多",
-                es: "Leer más",
-                ru: "Читать дальше",
-              })}
-            </Link>
-          </div>
+        <div className="flex flex-col items-center justify-center bg-[#c8922a] px-8 py-14 text-center text-paper sm:px-14 md:py-20">
+          <h2 className="max-w-lg font-display text-3xl leading-tight font-semibold sm:text-5xl">
+            {t(
+              "Feel natural. A local way to travel East Africa.",
+              "Hisia ya asili. Njia ya ndani ya kusafiri Afrika Mashariki.",
+              {
+                fr: "Ressentez la nature. Une façon locale de voyager en Afrique de l’Est.",
+                de: "Natürlich fühlen. Eine lokale Art, Ostafrika zu bereisen.",
+                zh: "感受自然。一种本地方式游览东非。",
+                es: "Siéntete natural. Una forma local de viajar por África Oriental.",
+                ru: "Чувствуй природу. Местный способ путешествовать по Восточной Африке.",
+              },
+            )}
+          </h2>
+          <p className="mt-5 font-display text-2xl italic sm:text-3xl">
+            {t("Ready. Set. Safari.", "Tayari. Anza. Safari.", {
+              fr: "Prêts. Partez. Safari.",
+              de: "Bereit. Los. Safari.",
+              zh: "准备。出发。Safari。",
+              es: "Listos. Ya. Safari.",
+              ru: "На старт. Внимание. Сафари.",
+            })}
+          </p>
+          <p className="mt-6 max-w-sm text-sm leading-relaxed text-paper/95 sm:text-base">
+            {t(
+              "Private safaris, group safaris and safari with kids. Planned from our house in Arusha.",
+              "Safari za faragha, za kikundi na za watoto. Zinapangwa kutoka nyumba yetu Arusha.",
+              {
+                fr: "Safaris privés, en groupe et avec enfants. Préparés depuis notre maison à Arusha.",
+                de: "Private Safaris, Gruppensafaris und Safari mit Kindern. Geplant von unserem Haus in Arusha.",
+                zh: "私人、团体与亲子safari。由我们在阿鲁沙的团队安排。",
+                es: "Safaris privados, en grupo y con niños. Planificados desde nuestra casa en Arusha.",
+                ru: "Частные, групповые сафари и сафари с детьми. Из нашего дома в Аруше.",
+              },
+            )}
+          </p>
+          <Link
+            to="/contact"
+            className="mt-8 inline-flex min-h-11 items-center rounded-full border border-paper px-6 text-xs font-semibold tracking-[0.18em] text-paper uppercase"
+          >
+            {t("Join the journey", "Jiunge na safari", {
+              fr: "Rejoindre le voyage",
+              de: "Reise beginnen",
+              zh: "加入旅程",
+              es: "Únete al viaje",
+              ru: "В путь",
+            })}
+          </Link>
         </div>
       </section>
 
@@ -106,8 +132,8 @@ export function HomePage() {
                 to="/destinations"
                 className="group overflow-hidden rounded-xl bg-cream shadow-sm transition-transform hover:-translate-y-1"
               >
-                <div className="h-44 overflow-hidden">
-                  <img src={d.image} alt={pair(t, d.title)} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                <div className="aspect-[4/5] overflow-hidden">
+                  <img src={d.image} alt={pair(t, d.title)} className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="p-4">
                   <h3 className="font-display text-xl font-semibold">{pair(t, d.title)}</h3>
@@ -144,8 +170,12 @@ export function HomePage() {
                 to="/explore-tanzania"
                 className="group overflow-hidden rounded-xl bg-paper shadow-sm transition-transform hover:-translate-y-1"
               >
-                <div className="h-36 overflow-hidden">
-                  <img src={item.image} alt="" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                <div className="aspect-[4/5] overflow-hidden">
+                  <img
+                    src={item.image}
+                    alt=""
+                    className={`h-full w-full object-cover transition-transform duration-500 group-hover:scale-105 ${"pos" in item && item.pos === "bottom" ? "object-[center_70%]" : "pos" in item && item.pos === "top" ? "object-[center_28%]" : "object-center"}`}
+                  />
                 </div>
                 <div className="p-4">
                   <h3 className="font-display text-lg font-semibold">{pair(t, item.title)}</h3>
@@ -177,8 +207,8 @@ export function HomePage() {
           <div className="grid gap-6 md:grid-cols-3">
             {experiences.map((item) => (
               <Link key={item.key} to="/experiences" className="overflow-hidden rounded-xl bg-cream shadow-sm">
-                <div className="h-44 overflow-hidden">
-                  <img src={item.image} alt="" className="h-full w-full object-cover" />
+                <div className="aspect-[4/5] overflow-hidden">
+                  <img src={item.image} alt="" className="h-full w-full object-cover object-center" />
                 </div>
                 <div className="p-5">
                   <h3 className="font-display text-xl font-semibold">{pair(t, item.title)}</h3>
@@ -211,8 +241,8 @@ export function HomePage() {
           <div className="grid gap-6 md:grid-cols-3">
             {tours.slice(0, 3).map((tour) => (
               <article key={tour.title.en} className="overflow-hidden rounded-xl bg-cream shadow-sm">
-                <div className="relative h-44">
-                  <img src={tour.image} alt="" className="h-full w-full object-cover" />
+                <div className="relative aspect-[4/5]">
+                  <img src={tour.image} alt="" className="h-full w-full object-cover object-center" />
                   <span className="absolute top-3 left-3 rounded-full bg-sunset px-3 py-1 text-xs font-semibold text-paper">
                     {pair(t, tour.badge)}
                   </span>
@@ -244,7 +274,10 @@ export function HomePage() {
 
       <Reviews />
 
-      <section className="bg-forest-deep px-4 py-16 text-center text-paper sm:px-6">
+      <section className="relative overflow-hidden px-4 py-24 text-center text-paper sm:px-6 sm:py-28">
+        <img src="/parks/ngorongoro.png" alt="" className="absolute inset-0 h-full w-full object-cover object-[center_35%]" />
+        <div className="absolute inset-0 bg-forest-deep/65" />
+        <div className="relative">
         <h2 className="font-display text-3xl font-semibold sm:text-4xl">
           {t("Ready to travel with us?", "Uko tayari kusafiri nasi?", {
             fr: "Prêt à voyager avec nous ?",
@@ -279,6 +312,7 @@ export function HomePage() {
             ru: "Спланировать поездку",
           })}
         </Link>
+        </div>
       </section>
     </SiteShell>
   );

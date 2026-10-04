@@ -10,7 +10,7 @@ export const countries = [
     key: "tanzania",
     title: C("Tanzania", "Tanzania", "Tanzanie", "Tansania", "坦桑尼亚", "Tanzania", "Танзания"),
     blurb: C("Serengeti, Ngorongoro, Tarangire, Kilimanjaro and the northern circuit from Arusha.", "Serengeti, Ngorongoro, Tarangire, Kilimanjaro na mzunguko wa kaskazini kutoka Arusha.", "Serengeti, Ngorongoro, Tarangire, Kilimandjaro et le circuit nord depuis Arusha.", "Serengeti, Ngorongoro, Tarangire, Kilimandscharo und der Nordkreis ab Arusha.", "从阿鲁沙出发的塞伦盖蒂、恩戈罗恩戈罗、塔兰吉雷、乞力马扎罗与北部线路。", "Serengeti, Ngorongoro, Tarangire, Kilimanjaro y el circuito norte desde Arusha.", "Серенгети, Нгоронгоро, Тарангире, Килиманджаро и северный маршрут из Аруши."),
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80"
+    image: "/destinations/tanzania.png"
   },
   {
     key: "zanzibar",
@@ -22,7 +22,7 @@ export const countries = [
     key: "kenya",
     title: C("Kenya", "Kenya", "Kenya", "Kenia", "肯尼亚", "Kenia", "Кения"),
     blurb: C("Maasai Mara migration crossings, Amboseli elephants and Rift Valley lakes.", "Mito ya uhamiaji Maasai Mara, tembo wa Amboseli na maziwa ya Rift Valley.", "Traversées de la migration au Maasai Mara, éléphants d’Amboseli et lacs de la Rift.", "Migration im Maasai Mara, Elefanten in Amboseli und Seen im Rift Valley.", "马赛马拉迁徙渡河、安博塞利大象与裂谷湖泊。", "Cruce de la migración en Maasai Mara, elefantes de Amboseli y lagos del Rift.", "Переправа миграции в Масаи-Мара, слоны Амбосели и озёра Рифтовой долины."),
-    image: "https://images.unsplash.com/photo-1547970810-dcad79a56c1e?auto=format&fit=crop&w=1200&q=80"
+    image: "/destinations/kenya.png"
   },
   {
     key: "botswana",
@@ -34,13 +34,13 @@ export const countries = [
     key: "rwanda",
     title: C("Rwanda", "Rwanda", "Rwanda", "Ruanda", "卢旺达", "Ruanda", "Руанда"),
     blurb: C("Volcanoes National Park gorilla trekking and misty thousand-hills landscapes.", "Kupanda milima kuona sokwe Volcanoes NP na mandhari ya visima elfu.", "Trekking des gorilles au Parc des Volcans et collines brumeuses.", "Gorilla-Trekking im Vulkan-Nationalpark und neblige Tausend Hügel.", "火山国家公园大猩猩徒步与迷雾千丘。", "Trekking de gorilas en el Parque de los Volcanes y mil colinas.", "Треккинг к гориллам в парке вулканов и туманные тысячи холмов."),
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80"
+    image: "/destinations/rwanda.png"
   },
   {
     key: "uganda",
     title: C("Uganda", "Uganda", "Ouganda", "Uganda", "乌干达", "Uganda", "Уганда"),
     blurb: C("Bwindi gorillas, Murchison Falls and chimpanzees in Kibale forest.", "Sokwe wa Bwindi, Murchison Falls na sokwe wadogo wa msitu wa Kibale.", "Gorilles de Bwindi, chutes Murchison et chimpanzés de Kibale.", "Gorillas in Bwindi, Murchison Falls und Schimpansen im Kibale-Wald.", "布温迪大猩猩、默奇森瀑布与基巴莱森林黑猩猩。", "Gorilas de Bwindi, cataratas Murchison y chimpancés de Kibale.", "Гориллы Бвинди, водопад Мерчисон и шимпанзе в Кибале."),
-    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80"
+    image: "/destinations/uganda.png"
   }
 ];
 export const destinations = [
@@ -54,13 +54,14 @@ export const destinations = [
     key: "ngorongoro",
     title: C("Ngorongoro Crater", "Crater ya Ngorongoro", "Cratère du Ngorongoro", "Ngorongoro-Krater", "恩戈罗恩戈罗火山口", "Cráter de Ngorongoro", "Кратер Нгоронгоро"),
     blurb: C("The world’s largest intact caldera — home of the Big Five.", "Caldera kubwa zaidi duniani — nyumbani kwa Big Five.", "La plus grande caldeira intacte — le Big Five.", "Die größte intakte Caldera — Heimat der Big Five.", "世界最大完整火山口——五大兽家园。", "La caldera intacta más grande — hogar de los Big Five.", "Крупнейшая целая кальдера — дом Большой пятёрки."),
-    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1200&q=80"
+    image: "/parks/ngorongoro.png"
   },
   {
     key: "tarangire",
     title: C("Tarangire National Park", "Hifadhi ya Taifa ya Tarangire", "Parc national de Tarangire", "Tarangire-Nationalpark", "塔兰吉雷国家公园", "Parque Nacional Tarangire", "Национальный парк Тарангире"),
     blurb: C("Giant baobabs and some of Tanzania’s largest elephant herds.", "Baobab na makundi makubwa ya tembo.", "Baobabs géants et grands troupeaux d’éléphants.", "Riesige Baobabs und große Elefantenherden.", "巨大猴面包树与庞大象群。", "Baobabs gigantes y grandes manadas de elefantes.", "Гигантские баобабы и огромные стада слонов."),
-    image: "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=1200&q=80"
+    image: "/parks/tarangire.png",
+    pos: "top"
   },
   {
     key: "arusha-np",
@@ -89,7 +90,7 @@ export const tours = [
     title: C("Classic Serengeti & Crater", "Safari ya Serengeti na Crater", "Serengeti et cratère classiques", "Klassisches Serengeti & Krater", "经典塞伦盖蒂与火山口", "Serengeti y cráter clásicos", "Классика Серенгети и кратера"),
     blurb: C("Migration plains, crater floor game drive and the Big Five in one iconic circuit.", "Nyanda za uhamiaji, game drive kwenye crater na Big Five.", "Plaines de migration, game drive dans le cratère et Big Five.", "Migrationsebenen, Krater-Gamedrive und die Big Five.", "迁徙草原、火山口巡游与五大兽经典线路。", "Llanuras de migración, game drive en el cráter y Big Five.", "Равнины миграции, круиз по кратеру и Большая пятёрка."),
     price: "$1,450",
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=900&q=80"
+    image: "/journeys/classic.png"
   },
   {
     badge: C("Summit", "Kilele", "Sommet", "Gipfel", "登顶", "Cumbre", "Вершина"),
@@ -98,7 +99,7 @@ export const tours = [
     title: C("Kilimanjaro climb", "Kupanda Kilimanjaro", "Ascension du Kilimandjaro", "Kilimandscharo-Besteigung", "乞力马扎罗登山", "Ascenso al Kilimanjaro", "Восхождение на Килиманджаро"),
     blurb: C("Full mountain crew, safety gear and the routes that give you the best summit chance.", "Wafanyakazi kamili wa mlima na njia zenye nafasi kubwa ya kilele.", "Équipe complète, matériel de sécurité et les meilleures voies pour le sommet.", "Volles Bergteam, Sicherheit und die Routen mit der besten Gipfelchance.", "完整登山团队、安全装备与登顶机会最大的路线。", "Equipo de montaña, seguridad y las rutas con más chance de cumbre.", "Полная горная команда, безопасность и лучшие маршруты к вершине."),
     price: "$1,890",
-    image: "https://images.unsplash.com/photo-1609198092458-38a293c7ac4b?auto=format&fit=crop&w=900&q=80"
+    image: "/journeys/kilimanjaro.png"
   },
   {
     badge: C("Coast", "Pwani", "Côte", "Küste", "海滨", "Costa", "Побережье"),
@@ -107,7 +108,7 @@ export const tours = [
     title: C("Parks then Zanzibar", "Mbuga kisha Zanzibar", "Parcs puis Zanzibar", "Parks, dann Sansibar", "公园之后去桑给巴尔", "Parques y luego Zanzíbar", "Парки, затем Занзибар"),
     blurb: C("Northern circuit game drives, then spice island rest on the east coast.", "Game drives za kaskazini, kisha pumziko la kisiwa cha viungo.", "Game drives du nord, puis repos sur l’île aux épices.", "Gamedrives im Norden, dann Ruhe auf der Gewürzinsel.", "北部巡游之后，在香料岛东岸休整。", "Game drives del norte y descanso en la isla de las especias.", "Северные гейм-драйвы, затем отдых на острове пряностей."),
     price: "$2,150",
-    image: "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=900&q=80"
+    image: "/journeys/zanzibar.png"
   },
   {
     badge: C("Trek", "Trek", "Trek", "Trek", "徒步", "Trek", "Трек"),
@@ -116,7 +117,7 @@ export const tours = [
     title: C("Mount Meru trek", "Kupanda Mount Meru", "Trek du mont Meru", "Mount-Meru-Trek", "梅鲁山徒步", "Trek del monte Meru", "Трек на гору Меру"),
     blurb: C("Wildlife on the trail, crater rim views, and ideal training before Kili.", "Wanyama njiani na maandalizi bora kabla ya Kilimanjaro.", "Faune sur le sentier et préparation idéale avant le Kilimandjaro.", "Wildtiere am Weg und ideale Vorbereitung vor dem Kilimandscharo.", "沿途野生动物，火山口边缘景色，乞力马扎罗前的理想适应。", "Fauna en el camino y preparación ideal antes del Kilimanjaro.", "Животные на тропе и идеальная подготовка к Килиманджаро."),
     price: "$950",
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80"
+    image: "/journeys/meru.png"
   },
   {
     badge: C("Cross-border", "Mipaka", "Transfrontalier", "Grenzüberschreitend", "跨境", "Transfronterizo", "Через границу"),
@@ -125,7 +126,7 @@ export const tours = [
     title: C("Serengeti & Mara", "Serengeti na Mara", "Serengeti et Mara", "Serengeti & Mara", "塞伦盖蒂与马拉", "Serengeti y Mara", "Серенгети и Мара"),
     blurb: C("Follow the herds across the Mara river with a private 4×4 on both sides.", "Fuata makundi kuvuka mto Mara kwa 4×4 ya faragha pande zote.", "Suivez les troupeaux à travers la rivière Mara en 4×4 privé.", "Folgen Sie den Herden über den Mara-Fluss im privaten 4×4.", "乘坐私人越野车追随兽群渡过马拉河。", "Sigue las manadas cruzando el río Mara en 4×4 privado.", "Следуйте за стадами через реку Мара на частном 4×4."),
     price: "$3,420",
-    image: "https://images.unsplash.com/photo-1547970810-dcad79a56c1e?auto=format&fit=crop&w=900&q=80"
+    image: "/journeys/mara.png"
   },
   {
     badge: C("Culture", "Utamaduni", "Culture", "Kultur", "文化", "Cultura", "Культура"),
@@ -134,7 +135,7 @@ export const tours = [
     title: C("Maasai cultural day", "Siku ya utamaduni wa Maasai", "Journée culturelle maasaï", "Kulturtag bei den Maasai", "马赛文化日", "Día cultural maasái", "Культурный день масаи"),
     blurb: C("Village visit, stories, dance and a shared meal of local cultural cuisine.", "Tembeleo la kijiji, hadithi, ngoma na chakula cha kitamaduni.", "Visite de village, récits, danse et repas de cuisine locale.", "Dorfbesuch, Geschichten, Tanz und ein gemeinsames Mahl.", "村落拜访、故事、舞蹈与共享的本地餐食。", "Visita al pueblo, relatos, danza y comida local compartida.", "Визит в деревню, истории, танцы и общая трапеза."),
     price: "$95",
-    image: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&w=900&q=80"
+    image: "/journeys/maasai.png"
   }
 ];
 export const stays = [
@@ -204,22 +205,35 @@ export const gallery = [
 
 export const posts = [
   {
-    date: "15 Aug 2025",
-    title: C("When to see the Great Migration", "Wakati bora wa kuona Uhamiaji Mkuu", "Quand voir la Grande Migration", "Wann die Große Migration sehen", "何时观看大迁徙", "Cuándo ver la Gran Migración", "Когда смотреть Великую миграцию"),
-    blurb: C("A month-by-month map of the herds across the northern circuit.", "Ramani ya mwezi kwa mwezi ya makundi kwenye mzunguko wa kaskazini.", "Carte mois par mois des troupeaux du circuit nord.", "Monatskarte der Herden im Nordkreis.", "北部线路兽群的逐月地图。", "Mapa mes a mes de las manadas del norte.", "Помесячная карта стад северного круга."),
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80",
+    topic: C("Climbing", "Kupanda", "Escalade", "Bergsteigen", "登山", "Escalada", "Восхождения"),
+    title: C("Climbing Kilimanjaro, Meru and Lengai", "Kupanda Kilimanjaro, Meru na Lengai", "Gravir le Kilimandjaro, le Meru et le Lengai", "Kilimandscharo, Meru und Lengai besteigen", "攀登乞力马扎罗、梅鲁与伦盖", "Escalar el Kilimanjaro, el Meru y el Lengai", "Восхождения на Килиманджаро, Меру и Ленгай"),
+    body: C("Three peaks from Arusha. Kilimanjaro is the Roof of Africa — Marangu from $1,650, Machame from $1,890, Lemosho from $2,180, Rongai from $1,980. Mount Meru is the training climb inside Arusha National Park, from $780 for three days. Ol Doinyo Lengai, the Mountain of God, is a night climb from $320, or two days with Lake Natron from $540. Licensed guides, measured porter loads and a safety briefing before every trail.", "Milima mitatu kutoka Arusha. Kilimanjaro ni paa la Afrika — Marangu kuanzia $1,650, Machame $1,890, Lemosho $2,180, Rongai $1,980. Mlima Meru ni mazoezi ndani ya Hifadhi ya Arusha, kuanzia $780 kwa siku tatu. Ol Doinyo Lengai, Mlima wa Mungu, ni kupanda usiku kuanzia $320, au siku mbili na Ziwa Natron kuanzia $540.", "Trois sommets depuis Arusha. Kilimandjaro dès 1 650 $, Meru dès 780 $, Lengai de nuit dès 320 $. Guides licenciés et charges mesurées.", "Drei Gipfel ab Arusha. Kilimandscharo ab 1.650 $, Meru ab 780 $, Lengai bei Nacht ab 320 $. Lizenzierte Guides.", "从阿鲁沙出发的三座山。乞力马扎罗、梅鲁与夜间攀登伦盖。持证向导，合理负重。", "Tres cumbres desde Arusha. Kilimanjaro, Meru y Lengai de noche, con guías con licencia.", "Три вершины из Аруши. Килиманджаро, Меру и ночной Ленгай. Лицензированные гиды."),
+    image: "https://images.unsplash.com/photo-1609198092458-38a293c7ac4b?auto=format&fit=crop&w=1400&q=80",
   },
   {
-    date: "02 Jul 2025",
-    title: C("How we prepare you for Kilimanjaro", "Jinsi tunavyokuandaa kwa Kilimanjaro", "Comment nous vous préparons au Kilimandjaro", "Vorbereitung auf den Kilimandscharo", "我们如何帮你准备乞力马扎罗", "Cómo te preparamos para el Kilimanjaro", "Как мы готовим вас к Килиманджаро"),
-    blurb: C("Training, packing, altitude and the crew that walks with you.", "Mazoezi, mizigo, urefu na timu inayotembea nawe.", "Entraînement, bagages, altitude et l’équipe qui marche avec vous.", "Training, Packliste, Höhe und das Team an deiner Seite.", "训练、行李、海拔与同行团队。", "Entrenamiento, equipaje, altitud y el equipo que camina contigo.", "Тренировки, сборы, высота и команда рядом с вами."),
-    image: "https://images.unsplash.com/photo-1609198092458-38a293c7ac4b?auto=format&fit=crop&w=800&q=80",
+    topic: C("Safari", "Safari", "Safari", "Safari", "游猎", "Safari", "Сафари"),
+    title: C("A safari on the northern circuit", "Safari kwenye mzunguko wa kaskazini", "Un safari sur le circuit nord", "Safari auf dem Nordkreis", "北部线路上的safari", "Un safari en el circuito norte", "Сафари по северному кругу"),
+    body: C("From Arusha the classic loop is Tarangire, Ngorongoro and the Serengeti. Dawn drives, a picnic on the crater floor, and evenings when the light goes gold. Private safaris use your own 4×4. Group safaris share the vehicle. Safari with kids keeps the drives shorter. An 8-day migration trip starts from $6,998 per person in Comfort.", "Kutoka Arusha mzunguko wa kawaida ni Tarangire, Ngorongoro na Serengeti. Drives za alfajiri, picnic kwenye crater, na jioni za dhahabu. Safari ya faragha ni 4×4 yako. Safari ya kikundi ni gari pamoja. Safari na watoto hufupisha drives. Safari ya uhamiaji ya siku 8 inaanza kuanzia $6,998 kwa mtu, Comfort.", "Depuis Arusha : Tarangire, Ngorongoro et Serengeti. Safari privé, en groupe, ou avec enfants. Migration 8 jours dès 6 998 $ en Comfort.", "Ab Arusha: Tarangire, Ngorongoro und Serengeti. Privat, Gruppe oder mit Kindern. 8-Tage-Migration ab 6.998 $ Comfort.", "从阿鲁沙出发：塔兰吉雷、恩戈罗恩戈罗与塞伦盖蒂。私人、团体或亲子。8日迁徙舒适级起价6,998美元。", "Desde Arusha: Tarangire, Ngorongoro y Serengeti. Privado, en grupo o con niños. Migración de 8 días desde 6.998 $ Comfort.", "Из Аруши: Тарангире, Нгоронгоро и Серенгети. Частное, групповое или с детьми. 8 дней миграции от 6 998 $ Comfort."),
+    image: "/blog/northern.png",
+    fit: "aspect-[4/5] w-full object-cover object-[center_68%] sm:aspect-[3/2]",
   },
   {
-    date: "20 May 2025",
-    title: C("Why the crater is a must", "Kwa nini crater ni lazima", "Pourquoi le cratère est incontournable", "Warum der Krater Pflicht ist", "为何火山口不可错过", "Por qué el cráter es imprescindible", "Почему кратер обязателен"),
-    blurb: C("A morning on the Ngorongoro floor, and why we never skip it.", "Asubuhi kwenye sakafu ya Ngorongoro, na kwa nini hatuachi.", "Un matin au fond du Ngorongoro — et pourquoi on n’y renonce jamais.", "Ein Morgen auf dem Kraterboden — und warum wir ihn nie auslassen.", "在恩戈罗恩戈罗底部的早晨，以及我们从不跳过的原因。", "Una mañana en el fondo de Ngorongoro, y por qué nunca la saltamos.", "Утро на дне Нгоронгоро — и почему мы его не пропускаем."),
-    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=800&q=80",
+    topic: C("About Tanzania", "Kuhusu Tanzania", "À propos de la Tanzanie", "Über Tansania", "关于坦桑尼亚", "Sobre Tanzania", "О Танзании"),
+    title: C("What to know before you land in Tanzania", "Cha kujua kabla ya kutua Tanzania", "À savoir avant d’atterrir en Tanzanie", "Was man vor der Landung in Tansania wissen sollte", "抵达坦桑尼亚前要知道的事", "Qué saber antes de aterrizar en Tanzania", "Что знать до прилёта в Танзанию"),
+    body: C("Tanzania holds the Serengeti, the Ngorongoro Crater, Kilimanjaro and a long Indian Ocean coast. Dry months — June to October and January to February — are strongest for game. Most passports can use an e-Visa or visa on arrival. We meet you in Arusha or on Zanzibar, and the northern parks are run by local licensed guides. Beyond the north we also go to Lake Manyara, Mikumi, Ruaha and Nyerere.", "Tanzania ina Serengeti, Crater ya Ngorongoro, Kilimanjaro na pwani ndefu ya Bahari ya Hindi. Miezi ya kiangazi — Juni hadi Oktoba na Januari hadi Februari — ni bora kwa wanyama. Pasipoti nyingi zinaweza kutumia e-Visa au visa palipofika. Tunakutana Arusha au Zanzibar. Zaidi ya kaskazini tunaenda Manyara, Mikumi, Ruaha na Nyerere.", "Serengeti, Ngorongoro, Kilimandjaro et une longue côte. Mois secs de juin à octobre et de janvier à février. E-visa ou visa à l’arrivée. Rencontre à Arusha ou Zanzibar.", "Serengeti, Ngorongoro, Kilimandscharo und eine lange Küste. Trockenmonate Juni–Oktober und Januar–Februar. E-Visum oder Visum bei Ankunft.", "塞伦盖蒂、恩戈罗恩戈罗、乞力马扎罗与漫长海岸。旱季观兽最佳。电子签或落地签。在阿鲁沙或桑给巴尔见面。", "Serengeti, Ngorongoro, Kilimanjaro y una costa larga. Meses secos de junio a octubre y de enero a febrero. E-visa o visado a la llegada.", "Серенгети, Нгоронгоро, Килиманджаро и длинное побережье. Сухие месяцы — июнь–октябрь и январь–февраль. Электронная виза или по прибытии."),
+    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1400&q=80",
+  },
+  {
+    topic: C("Birdwatching", "Kuangalia ndege", "Observation des oiseaux", "Vogelbeobachtung", "观鸟", "Observación de aves", "Наблюдение за птицами"),
+    title: C("Birdwatching on lakes, crater and coast", "Kuangalia ndege kwenye maziwa, crater na pwani", "Observer les oiseaux : lacs, cratère et côte", "Vögel an Seen, im Krater und an der Küste", "湖泊、火山口与海岸观鸟", "Aves en lagos, cráter y costa", "Птицы на озёрах, в кратере и на побережье"),
+    body: C("Lake Manyara and the Momella Lakes in Arusha National Park are flamingo country. The Ngorongoro floor adds more at the soda shore. Tarangire holds hornbills, eagles and weavers in the baobabs. On Zanzibar and Pemba the mangroves and tidal creeks bring shorebirds. We slow the vehicle, keep a quiet window, and time the morning for the light — private and group vehicles both work for a birding day.", "Ziwa Manyara na maziwa ya Momella katika Hifadhi ya Arusha ni nchi ya flamingo. Sakafu ya Ngorongoro inaongeza zaidi ufukweni. Tarangire ina hornbills na tai kwenye mibuyu. Zanzibar na Pemba zinaleta ndege wa pwani kwenye mikoko. Tunapunguza kasi ya gari na kuweka dirisha tulivu.", "Manyara et les lacs Momella pour les flamants, le cratère, les calaos de Tarangire, puis les mangroves de Zanzibar et Pemba.", "Manyara und die Momella-Seen für Flamingos, der Krater, Nashornvögel in Tarangire, Mangroven auf Sansibar und Pemba.", "马尼亚拉湖与莫梅拉湖的火烈鸟、火山口、塔兰吉雷的犀鸟，以及桑给巴尔与奔巴的红树林。", "Manyara y los lagos Momella para flamencos, el cráter, cálaos en Tarangire y manglares en Zanzíbar y Pemba.", "Маньяра и озёра Момелла — фламинго, кратер, птицы-носороги в Тарангире, мангры Занзибара и Пембы."),
+    image: "https://images.unsplash.com/photo-1497206365907-f5e630693df0?auto=format&fit=crop&w=1400&q=80",
+  },
+  {
+    topic: C("Islands", "Visiwa", "Îles", "Inseln", "岛屿", "Islas", "Острова"),
+    title: C("Zanzibar, Pemba and Mafia after the parks", "Zanzibar, Pemba na Mafia baada ya mbuga", "Zanzibar, Pemba et Mafia après les parcs", "Sansibar, Pemba und Mafia nach den Parks", "游猎之后的桑给巴尔、奔巴与马菲亚", "Zanzíbar, Pemba y Mafia después de los parques", "Занзибар, Пемба и Мафия после парков"),
+    body: C("After the dust, the islands. Stone Town, spice farms, dhow sunsets and white sand on the east coast of Zanzibar. A 7-day Zanzibar stay starts from $3,645 per person in Comfort. Pemba is quieter, with reefs and clove hills. Mafia is for whale sharks in season and empty sandbanks. We arrange the flight or ferry from the northern circuit, and a beach villa or a Stone Town house for the last nights.", "Baada ya vumbi, visiwa. Stone Town, mashamba ya viungo, machweo ya dau na mchanga mweupe mashariki mwa Zanzibar. Siku 7 Zanzibar kuanzia $3,645 kwa mtu, Comfort. Pemba ni tulivu, na miamba. Mafia ni kwa papa nyumbu na mchanga mtupu. Tunapanga ndege au feri kutoka mzunguko wa kaskazini.", "Après la poussière, les îles. Stone Town, épices, dhow et sable blanc. Zanzibar 7 jours dès 3 645 $ en Comfort. Pemba plus calme, Mafia pour les requins-baleines.", "Nach dem Staub die Inseln. Stone Town, Gewürze, Dau und weißer Sand. Sansibar 7 Tage ab 3.645 $ Comfort. Pemba ruhiger, Mafia für Walhaie.", "尘土之后是岛屿。石头城、香料、独桅船与白沙。桑给巴尔7日起价3,645美元。奔巴更安静，马菲亚可看鲸鲨。", "Después del polvo, las islas. Stone Town, especias, dhow y arena blanca. Zanzíbar 7 días desde 3.645 $ Comfort.", "После пыли — острова. Стоун-таун, специи, дау и белый песок. 7 дней Занзибара от 3 645 $ Comfort."),
+    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1400&q=80",
   },
 ];
 
@@ -243,26 +257,46 @@ export const faqs = [
   {
     q: C("Can you build a private itinerary?", "Je, mnaweza kutengeneza ratiba ya faragha?", "Pouvez-vous créer un itinéraire privé ?", "Könnt ihr eine private Route bauen?", "可以定制私人行程吗？", "¿Podéis armar un itinerario privado?", "Можно ли собрать частный маршрут?"),
     a: C("Yes. Tell us dates, pace, hiking interest and budget — we tailor parks, lodges and walking days around you.", "Ndiyo. Tuambie tarehe, kasi, hiking na bajeti — tunapanga mbuga na malazi kwa ajili yako.", "Oui. Dates, rythme, trekking et budget — nous ajustons parcs et lodges autour de vous.", "Ja. Daten, Tempo, Wandern und Budget — wir bauen Parks und Lodges um dich.", "可以。告诉我们日期、节奏、徒步与预算，我们按你来安排公园与住宿。", "Sí. Fechas, ritmo, trekking y presupuesto — armamos parques y lodges a tu medida.", "Да. Даты, темп, треккинг и бюджет — парки и лоджи под вас.")
+  },
+  {
+    q: C("Can children come on safari?", "Je, watoto wanaweza kuja safari?", "Les enfants peuvent-ils venir en safari ?", "Können Kinder mit auf Safari?", "孩子可以参加safari吗？", "¿Pueden venir niños al safari?", "Можно ли брать детей на сафари?"),
+    a: C("Yes. Family safaris use shorter game drives, family rooms or connecting tents, and guides who like questions. Tell us the ages when you enquire.", "Ndiyo. Safari za familia zina game drives fupi, vyumba vya familia, na viongozi wanaopenda maswali. Tuambie umri wanapouliza.", "Oui. Les safaris famille ont des drives plus courts, des chambres familiales et des guides patients. Indiquez les âges.", "Ja. Familiensafaris mit kürzeren Drives, Familienzimmern und geduldigen Guides. Nennt uns die Alter.", "可以。亲子safari行程较短，有家庭房，向导乐意回答问题。询价时请告知年龄。", "Sí. Los safaris familiares tienen drives más cortos, habitaciones familiares y guías pacientes. Dinos las edades.", "Да. Семейные сафари короче, с семейными номерами и гидами, которым нравятся вопросы. Напишите возраст.")
+  },
+  {
+    q: C("How fit do I need to be for the mountains?", "Nihitaji nguvu kiasi gani kupanda milima?", "Quelle forme faut-il pour les montagnes ?", "Wie fit muss ich für die Berge sein?", "登山需要怎样的体能？", "¿Qué forma física hace falta para las montañas?", "Какая подготовка нужна для гор?"),
+    a: C("Kilimanjaro and Meru need steady walking fitness, not technical climbing. Lengai is a steep night climb. We match the route and pace to you, and send a packing and training note after booking.", "Kilimanjaro na Meru zinahitaji kutembea kwa utulivu, si kupanda kwa kamba. Lengai ni kupanda usiku kwa mwinuko. Tunachagua njia na kasi kwako.", "Le Kilimandjaro et le Meru demandent une marche régulière, pas d’escalade technique. Le Lengai est une montée de nuit raide.", "Kilimandscharo und Meru brauchen Ausdauer beim Gehen, kein technisches Klettern. Lengai ist ein steiler Nachtaufstieg.", "乞力马扎罗和梅鲁需要稳定步行能力，不是技术攀登。伦盖是陡峭夜攀。", "Kilimanjaro y Meru piden caminar con constancia, no escalada técnica. Lengai es una subida nocturna empinada.", "Килиманджаро и Меру — ровная ходьба, не техническое восхождение. Ленгай — крутой ночной подъём.")
+  },
+  {
+    q: C("What is not included?", "Nini hakijajumuishwa?", "Qu’est-ce qui n’est pas inclus ?", "Was ist nicht enthalten?", "不包含什么？", "¿Qué no está incluido?", "Что не включено?"),
+    a: C("International flights, visas, travel insurance, tips, laundry, alcoholic drinks and optional extras such as a balloon or gorilla permit, unless that permit is written into the itinerary you chose.", "Ndege za kimataifa, visa, bima, tips, kufua nguo, vinywaji vya kileo na shughuli za ziada kama balloon au kibali cha gorilla, isipokuwa kibali hicho kimeandikwa kwenye ratiba uliyochagua.", "Vols internationaux, visas, assurance, pourboires, lessive, alcool et options comme le ballon ou le permis gorille, sauf s’il est écrit dans l’itinéraire choisi.", "Internationale Flüge, Visa, Versicherung, Trinkgeld, Wäsche, Alkohol und Extras wie Ballon oder Gorilla-Permit, außer es steht im gewählten Programm.", "国际机票、签证、保险、小费、洗衣、酒精饮品，以及热气球或大猩猩许可等可选项，除非行程写明已含许可。", "Vuelos internacionales, visados, seguro, propinas, lavandería, alcohol y extras como el globo o el permiso de gorilas, salvo que figure en el itinerario elegido.", "Международные рейсы, визы, страховка, чаевые, стирка, алкоголь и доп. опции вроде шара или разрешения на горилл, если оно не вписано в маршрут.")
+  },
+  {
+    q: C("How far ahead should I book?", "Niandikishe mapema kiasi gani?", "Combien de temps à l’avance réserver ?", "Wie früh soll ich buchen?", "需要提前多久预订？", "¿Con cuánta antelación reservo?", "За сколько бронировать?"),
+    a: C("Dry-season lodges and Kilimanjaro crews fill months ahead. Six to nine months is comfortable for July to October. Shorter trips can often be arranged closer to the date.", "Malazi ya kiangazi na timu za Kilimanjaro hujaa miezi mapema. Miezi sita hadi tisa inatosha kwa Julai hadi Oktoba.", "Les lodges de saison sèche et les équipes du Kilimandjaro se remplissent des mois à l’avance. Six à neuf mois conviennent de juillet à octobre.", "Lodges der Trockenzeit und Kilimandscharo-Teams sind Monate vorher voll. Sechs bis neun Monate passen für Juli bis Oktober.", "旱季小屋和乞力马扎罗团队会提前数月订满。7至10月建议提前六到九个月。", "Los lodges de seca y los equipos del Kilimanjaro se llenan con meses. De seis a nueve meses va bien de julio a octubre.", "Лоджи сухого сезона и команды Килиманджаро заполняются за месяцы. Для июля–октября удобно за шесть–девять месяцев.")
+  },
+  {
+    q: C("Can I add Zanzibar or gorilla trekking?", "Naweza kuongeza Zanzibar au gorilla?", "Puis-je ajouter Zanzibar ou les gorilles ?", "Kann ich Sansibar oder Gorillas ergänzen?", "可以加桑给巴尔或大猩猩追踪吗？", "¿Puedo añadir Zanzíbar o gorilas?", "Можно добавить Занзибар или горилл?"),
+    a: C("Yes. Many journeys finish on the Zanzibar coast. Uganda and Rwanda gorilla days can be added, and the permit is included only when the itinerary says so.", "Ndiyo. Safari nyingi huishia pwani ya Zanzibar. Siku za gorilla Uganda na Rwanda zinaweza kuongezwa, na kibali kinajumuishwa tu ratiba inaposema hivyo.", "Oui. Beaucoup de voyages finissent sur la côte de Zanzibar. Les jours gorilles en Ouganda et au Rwanda s’ajoutent, permis inclus seulement si l’itinéraire le dit.", "Ja. Viele Reisen enden an der Küste Sansibars. Gorilla-Tage in Uganda und Ruanda sind möglich, Permit nur wenn es im Programm steht.", "可以。很多行程在桑给巴尔海岸结束。可加乌干达和卢旺达大猩猩日，仅当行程写明时才含许可。", "Sí. Muchos viajes terminan en la costa de Zanzíbar. Se pueden añadir días de gorilas en Uganda y Ruanda; el permiso va incluido solo si el itinerario lo dice.", "Да. Многие маршруты заканчиваются на побережье Занзибара. Дни с гориллами в Уганде и Руанде можно добавить; разрешение включено, только если это написано в программе.")
   }
 ];
 export const experiences = [
   {
-    key: "group",
-    title: C("Small group safaris", "Safari za kikundi kidogo", "Safaris en petit groupe", "Kleingruppen-Safaris", "小团safari", "Safaris en grupo pequeño", "Сафари малой группой"),
-    text: C("Departures with 4–8 guests. Shared 4×4, shared camp nights, a lower price without losing the wild. Good for solo travellers and friends who want company on the plains.", "Safari za wageni 4–8. Gari 4×4 na kambi pamoja, bei nafuu bila kupoteza pori. Nzuri kwa wasafiri peke yao na marafiki.", "Départs de 4 à 8 voyageurs. 4×4 et camps partagés, un prix plus doux, la savane intacte.", "Abfahrten mit 4–8 Gästen. Geteiltes 4×4 und Camp, fairer Preis, volle Wildnis.", "4–8人出发。共享越野车与营地，价格更亲民，荒野不减。", "Salidas de 4 a 8 viajeros. 4×4 y campamentos compartidos, mejor precio, misma sabana.", "Выезды по 4–8 гостей. Общий 4×4 и лагерь, ниже цена, та же дикая земля."),
-    image: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&w=1200&q=80"
-  },
-  {
-    key: "family",
-    title: C("Family safaris", "Safari za familia", "Safaris en famille", "Familien-Safaris", "家庭safari", "Safaris en familia", "Семейные сафари"),
-    text: C("Built for children and grandparents: shorter game drives, family rooms or connecting tents, picnic lunches and guides who like questions.", "Kwa watoto na wazee: game drives fupi, vyumba vya familia, picnic na viongozi wanaopenda maswali.", "Pour enfants et grands-parents : drives plus courts, chambres familiales, pique-niques et guides patients.", "Für Kinder und Großeltern: kürzere Drives, Familienzimmer, Picknicks und geduldige Guides.", "为孩子与长辈：较短巡游、家庭房、野餐，以及爱回答问题的向导。", "Para niños y abuelos: drives más cortos, habitaciones familiares, picnic y guías pacientes.", "Для детей и бабушек: короче выезды, семейные номера, пикники и терпеливые гиды."),
-    image: "https://images.unsplash.com/photo-1547970810-dcad79a56c1e?auto=format&fit=crop&w=1200&q=80"
-  },
-  {
     key: "private",
     title: C("Private safaris", "Safari za faragha", "Safaris privés", "Private Safaris", "私人safari", "Safaris privados", "Частные сафари"),
     text: C("Your vehicle, your pace, your lodges. Honeymoons, slow travel and custom routes — we move when you are ready, and we stop when the light is good.", "Gari lako, kasi yako, malazi yako. Honeymoon, safari tulivu na njia maalum — tunaenda unapokuwa tayari.", "Votre véhicule, votre rythme, vos lodges. Lunes de miel et voyages lents, on avance quand vous êtes prêts.", "Dein Fahrzeug, dein Tempo, deine Lodges. Flitterwochen und langsames Reisen — wir fahren, wenn ihr bereit seid.", "你的车、你的节奏、你的小屋。蜜月与慢旅行，准备好才出发。", "Tu vehículo, tu ritmo, tus lodges. Lunas de miel y viaje lento: nos movemos cuando estés listo.", "Ваша машина, ваш темп, ваши лоджи. Медовый месяц и медленное путешествие — едем, когда вы готовы."),
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80"
+    image: "/experiences/private.png"
+  },
+  {
+    key: "group",
+    title: C("Group safaris", "Safari za kikundi", "Safaris de groupe", "Gruppensafaris", "团体safari", "Safaris en grupo", "Групповые сафари"),
+    text: C("Shared departures for friends, clubs and travellers who like company. A shared 4×4, camp nights together and a fair price, without losing the wild.", "Safari za pamoja kwa marafiki, vilabu na wasafiri wanaopenda kuwa na wengine. Gari 4×4 na kambi pamoja, bei nafuu, pori lilelile.", "Départs partagés pour amis, clubs et voyageurs qui aiment la compagnie. 4×4 et camps ensemble, prix juste, savane intacte.", "Gemeinsame Abfahrten für Freunde, Vereine und Reisende, die Gesellschaft mögen. Geteiltes 4×4, gemeinsame Campnächte, fairer Preis.", "适合朋友、俱乐部和喜欢结伴的旅客。共享越野车与营地，价格公道，荒野不减。", "Salidas compartidas para amigos, clubes y viajeros que quieren compañía. 4×4 y campamentos juntos, precio justo.", "Общие выезды для друзей, клубов и тех, кому нужна компания. Общий 4×4, ночи в лагере, честная цена."),
+    image: "/experiences/group.png"
+  },
+  {
+    key: "kids",
+    title: C("Safari with kids", "Safari na watoto", "Safari avec enfants", "Safari mit Kindern", "亲子safari", "Safari con niños", "Сафари с детьми"),
+    text: C("Shorter game drives, family rooms or connecting tents, picnic lunches and guides who like questions. Built so children stay curious, not tired.", "Game drives fupi, vyumba vya familia, picnic na viongozi wanaopenda maswali. Ili watoto wabaki wadadisi, si wachovu.", "Drives plus courts, chambres familiales, pique-niques et guides patients. Pour que les enfants restent curieux, pas fatigués.", "Kürzere Drives, Familienzimmer, Picknicks und geduldige Guides. Damit Kinder neugierig bleiben, nicht müde.", "较短巡游、家庭房、野餐，以及爱回答问题的向导。让孩子保持好奇，而不是疲惫。", "Drives más cortos, habitaciones familiares, picnic y guías pacientes. Para que los niños sigan curiosos, no cansados.", "Короче выезды, семейные номера, пикники и гиды, которым нравятся вопросы. Чтобы дети оставались любопытными, а не уставшими."),
+    image: "/experiences/kids.png"
   }
 ];
 
@@ -278,19 +312,21 @@ export const tanzaniaParks = [
     key: "ngorongoro",
     title: C("Ngorongoro Crater & highlights", "Crater ya Ngorongoro na vivutio", "Cratère du Ngorongoro et temps forts", "Ngorongoro-Krater & Highlights", "恩戈罗恩戈罗火山口与亮点", "Cráter de Ngorongoro y lo más destacado", "Кратер Нгоронгоро и главные места"),
     text: C("A collapsed caldera packed with lion, elephant, flamingo and black rhino. We drop to the floor at first light, picnic by the hippo pool, then climb to the rim for the view that stays with you. Nearby: Olduvai Gorge, Empakaai and a Maasai boma visit.", "Caldera yenye simba, tembo, flamingo na faru mweusi. Tunashuka asubuhi, picnic kwenye hippo pool, kisha kupanda rim. Karibu: Olduvai, Empakaai na tembeleo la boma ya Maasai.", "Caldeira dense : lions, éléphants, flamants, rhinocéros noir. Descente à l’aube, pique-nique, puis le rebord. Tout près : Olduvai, Empakaai, boma maasaï.", "Caldera voll Löwen, Elefanten, Flamingos und Spitzmaulnashorn. Abstieg im ersten Licht, Picknick, dann der Kraterrand. Nahe: Olduvai, Empakaai, Maasai-Boma.", "塌陷火山口里有狮、象、火烈鸟与黑犀。清晨下到底部，河马池野餐，再登上边缘。附近：奥杜威、恩帕凯与马赛村落。", "Caldera con leones, elefantes, flamencos y rinoceronte negro. Bajamos al alba, picnic y el borde. Cerca: Olduvai, Empakaai y un boma maasái.", "Кальдера со львами, слонами, фламинго и чёрным носорогом. Спуск на рассвете, пикник, затем кромка. Рядом: Олдувай, Эмпакаи и бома масаи."),
-    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1400&q=80"
+    image: "/parks/ngorongoro.png"
   },
   {
     key: "tarangire",
     title: C("Tarangire National Park", "Hifadhi ya Taifa ya Tarangire", "Parc national de Tarangire", "Tarangire-Nationalpark", "塔兰吉雷国家公园", "Parque Nacional Tarangire", "Национальный парк Тарангире"),
     text: C("Baobabs, the Tarangire River and one of the largest elephant gatherings in East Africa. Quiet in the green season, busy with herds when the water concentrates. A gentle first or last park day from Arusha.", "Mibuyu, mto Tarangire na kundi kubwa la tembo Afrika Mashariki. Tulivu msimu wa mvua, makundi mengi maji yanapokusanyika. Siku nzuri ya kwanza au ya mwisho kutoka Arusha.", "Baobabs, la rivière Tarangire et l’un des plus grands rassemblements d’éléphants. Doux comme premier ou dernier parc depuis Arusha.", "Baobabs, der Tarangire-Fluss und eine der größten Elefantenansammlungen. Sanfter erster oder letzter Parktag ab Arusha.", "猴面包树、塔兰吉雷河，以及东非最大象群之一。适合从阿鲁沙出发的第一天或最后一天。", "Baobabs, el río Tarangire y una de las mayores reuniones de elefantes. Un primer o último día suave desde Arusha.", "Баобабы, река Тарангире и одно из крупнейших скоплений слонов. Мягкий первый или последний день из Аруши."),
-    image: "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=1400&q=80"
+    image: "/parks/tarangire.png",
+    pos: "top"
   },
   {
     key: "overview",
     title: C("Tanzania overview", "Muhtasari wa Tanzania", "Aperçu de la Tanzanie", "Tansania im Überblick", "坦桑尼亚概览", "Tanzania de un vistazo", "Танзания обзор"),
     text: C("Beyond the northern circuit we also run Arusha National Park, Lake Manyara, Mikumi, Ruaha and Nyerere (Selous). Add Kilimanjaro or Mount Meru for the peaks, then rest on Zanzibar, Pemba or Mafia. One country, parks, mountains and tide.", "Zaidi ya mzunguko wa kaskazini tunaendesha Arusha NP, Ziwa Manyara, Mikumi, Ruaha na Nyerere (Selous). Ongeza Kilimanjaro au Mount Meru, kisha pumzika Zanzibar, Pemba au Mafia.", "Au-delà du nord : Arusha NP, Manyara, Mikumi, Ruaha, Nyerere. Ajoutez le Kilimandjaro ou le Meru, puis Zanzibar, Pemba ou Mafia.", "Neben dem Nordkreis: Arusha NP, Manyara, Mikumi, Ruaha, Nyerere. Plus Kilimandscharo oder Meru, dann Sansibar, Pemba oder Mafia.", "北部线路之外还有阿鲁沙公园、马尼亚拉湖、米库米、鲁阿哈与涅雷尔。可加乞力马扎罗或梅鲁，再到桑给巴尔、奔巴或马afia休息。", "Más allá del norte: Arusha NP, Manyara, Mikumi, Ruaha y Nyerere. Suma Kilimanjaro o Meru, luego Zanzíbar, Pemba o Mafia.", "Кроме севера: парк Аруша, Маньяра, Микуми, Руаха и Ньерере. Плюс Килиманджаро или Меру, затем Занзибар, Пемба или Мафия."),
-    image: "https://images.unsplash.com/photo-1609198092458-38a293c7ac4b?auto=format&fit=crop&w=1400&q=80"
+    image: "/parks/overview.png",
+    pos: "bottom"
   }
 ];
 
@@ -320,94 +356,141 @@ export const offers = [
   {
     tag: C("Season", "Msimu", "Saison", "Saison", "季节", "Temporada", "Сезон"),
     title: C("Green-season Serengeti", "Serengeti ya majani", "Serengeti en saison verte", "Serengeti in der Grünsaison", "绿季塞伦盖蒂", "Serengeti en temporada verde", "Серенгети зелёного сезона"),
-    text: C("January–March calving plains, fewer vehicles, lodge rates that leave room for an extra night.", "Januari–Machi nyanda za watoto, magari machache.", "Janvier–mars, naissances, moins de véhicules, tarifs plus doux.", "Januar–März, Kälber, weniger Fahrzeuge, bessere Raten.", "1–3月产仔草原、车辆更少、房价更从容。", "Enero–marzo, crías, menos vehículos, tarifas más suaves.", "Январь–март, отёл, меньше машин, мягче цены."),
-    price: C("From $1,190", "Kuanzia $1,190", "Dès 1 190 $", "Ab 1.190 $", "起价 $1,190", "Desde $1,190", "От $1,190")
+    text: C(
+      "January to March on the southern plains, when the herds drop their calves and the camps are quieter. The grass is green, the light is soft, and lodge rates leave room for an extra night.",
+      "Januari hadi Machi kwenye nyanda za kusini, wakati makundi yanazaa na kambi ziko tulivu. Nyasi ni kijani, mwanga ni laini, na bei ya lodge inaacha nafasi ya usiku wa ziada.",
+      "De janvier à mars dans les plaines du sud, quand les troupeaux mettent bas et que les camps sont plus calmes. L’herbe est verte et les tarifs laissent place à une nuit de plus.",
+      "Januar bis März in den südlichen Ebenen, wenn die Herden kalben und die Camps ruhiger sind. Grünes Gras, weiches Licht, und die Raten lassen eine zusätzliche Nacht zu.",
+      "1月至3月在南部草原，兽群产仔，营地更安静。青草、柔光，房价也留得出多住一晚。",
+      "De enero a marzo en las llanuras del sur, cuando las manadas paren y los campamentos están más tranquilos. Hierba verde y tarifas que dejan sitio a una noche extra.",
+      "Январь–март на южных равнинах, когда стада телятся и лагеря тише. Зелёная трава и цены, в которые умещается лишняя ночь.",
+    ),
+    points: [
+      C("4 days, private 4×4 and a guide who stays with you", "Siku 4, 4×4 ya faragha na kiongozi anayebaki nawe", "4 jours, 4×4 privé et un guide qui reste avec vous", "4 Tage, privates 4×4 und ein Guide, der bei euch bleibt", "4天，私人越野车与全程向导", "4 días, 4×4 privado y un guía que se queda contigo", "4 дня, частный 4×4 и гид, который остаётся с вами"),
+      C("Southern Serengeti, focused on the calving plains", "Serengeti ya kusini, kwenye nyanda za watoto", "Serengeti sud, centré sur les plaines de mise bas", "Südliches Serengeti, auf den Kalbeebenen", "南部塞伦盖蒂，专注产仔草原", "Serengeti sur, centrado en las llanuras de cría", "Южный Серенгети, равнины отёла"),
+      C("Park fees, breakfast and dinner at a comfort camp", "Ada za mbuga, kifungua kinywa na chakula cha jioni kwenye kambi ya starehe", "Frais de parc, petit-déjeuner et dîner dans un camp confort", "Parkgebühren, Frühstück und Abendessen im Comfort-Camp", "公园费，舒适营的早餐与晚餐", "Tasas del parque, desayuno y cena en un campamento comfort", "Сборы парка, завтрак и ужин в комфорт-лагере"),
+      C("Fewer vehicles than the July–October rush", "Magari machache kuliko haraka ya Julai–Oktoba", "Moins de véhicules que la ruée de juillet à octobre", "Weniger Fahrzeuge als im Juli–Oktober-Andrang", "车辆少于7至10月旺季", "Menos vehículos que la avalancha de julio a octubre", "Меньше машин, чем в пике июля–октября"),
+    ],
+    price: C("From $1,190 pp", "Kuanzia $1,190 kwa mtu", "Dès 1 190 $ / pers.", "Ab 1.190 $ p. P.", "起价 $1,190 /人", "Desde $1,190 / pers.", "От $1,190 / чел."),
   },
   {
     tag: C("Bundle", "Kifurushi", "Formule", "Paket", "组合", "Paquete", "Пакет"),
     title: C("Safari + Zanzibar week", "Wiki ya safari + Zanzibar", "Semaine safari + Zanzibar", "Safari + Sansibar Woche", "safari + 桑给巴尔一周", "Semana safari + Zanzíbar", "Неделя сафари + Занзибар"),
-    text: C("Four park days then three nights on the east coast — transfers and spice tour included.", "Siku nne za mbuga kisha usiku tatu pwani mashariki.", "Quatre jours de parc puis trois nuits sur la côte est.", "Vier Parktage, dann drei Nächte an der Ostküste.", "四天公园，三晚东岸，含接送与香料之旅。", "Cuatro días de parque y tres noches en la costa este.", "Четыре дня парков и три ночи на восточном берегу."),
-    price: C("From $2,150", "Kuanzia $2,150", "Dès 2 150 $", "Ab 2.150 $", "起价 $2,150", "Desde $2,150", "От $2,150")
+    text: C(
+      "A full week that does not rush the parks or the beach. Four days on the northern circuit, then three nights on the east coast of Zanzibar, with the spice farms and the sea after the dust.",
+      "Wiki nzima isiyokimbiza mbuga wala pwani. Siku nne kwenye mzunguko wa kaskazini, kisha usiku tatu pwani ya mashariki ya Zanzibar, na mashamba ya viungo baada ya vumbi.",
+      "Une semaine entière, sans presser les parcs ni la plage. Quatre jours sur le circuit nord, puis trois nuits sur la côte est de Zanzibar, épices et mer après la poussière.",
+      "Eine volle Woche, ohne Parks oder Strand zu hetzen. Vier Tage auf dem Nordkreis, dann drei Nächte an der Ostküste Sansibars, Gewürze und Meer nach dem Staub.",
+      "一整周，公园和海滩都不赶。北部线路四天，再到桑给巴尔东岸三晚，尘土之后是香料园与大海。",
+      "Una semana entera, sin apurar parques ni playa. Cuatro días en el circuito norte y tres noches en la costa este de Zanzíbar, especias y mar después del polvo.",
+      "Полная неделя без спешки. Четыре дня северного круга, затем три ночи на восточном берегу Занзибара — специи и море после пыли.",
+    ),
+    points: [
+      C("Tarangire or Manyara, Ngorongoro, and a Serengeti day", "Tarangire au Manyara, Ngorongoro, na siku ya Serengeti", "Tarangire ou Manyara, Ngorongoro et une journée au Serengeti", "Tarangire oder Manyara, Ngorongoro und ein Serengeti-Tag", "塔兰吉雷或马尼亚拉、恩戈罗恩戈罗，以及一天塞伦盖蒂", "Tarangire o Manyara, Ngorongoro y un día en el Serengeti", "Тарангире или Маньяра, Нгоронгоро и день в Серенгети"),
+      C("Three nights in a beach villa on the east coast", "Usiku tatu kwenye villa ya pwani mashariki", "Trois nuits dans une villa de la côte est", "Drei Nächte in einer Strandvilla an der Ostküste", "东岸海滩别墅三晚", "Tres noches en una villa de la costa este", "Три ночи на пляжной вилле восточного берега"),
+      C("Mainland transfers and a guided spice-farm visit", "Usafiri wa bara na matembezi ya shamba la viungo", "Transferts sur le continent et visite guidée d’une ferme aux épices", "Festlandtransfers und ein geführter Gewürzfarmbesuch", "大陆接送与香料园导览", "Traslados en el continente y visita guiada a una granja de especias", "Трансферы на материке и экскурсия на плантацию пряностей"),
+      C("The flight to Zanzibar is quoted with the plan, not hidden inside the from-price", "Ndege ya Zanzibar inaandikwa kwenye mpango, haifichwi ndani ya bei ya kuanzia", "Le vol pour Zanzibar est indiqué dans le plan, pas caché dans le prix « dès »", "Der Flug nach Sansibar steht im Plan, nicht versteckt im Ab-Preis", "飞往桑给巴尔的航班写在计划里，不藏在起价中", "El vuelo a Zanzíbar va en el plan, no escondido en el precio «desde»", "Перелёт на Занзибар указан в плане, а не спрятан в цене «от»"),
+    ],
+    price: C("From $2,150 pp", "Kuanzia $2,150 kwa mtu", "Dès 2 150 $ / pers.", "Ab 2.150 $ p. P.", "起价 $2,150 /人", "Desde $2,150 / pers.", "От $2,150 / чел."),
   },
   {
     tag: C("Honeymoon", "Honeymoon", "Lune de miel", "Flitterwochen", "蜜月", "Luna de miel", "Медовый месяц"),
     title: C("Private crater & coast", "Crater na pwani ya faragha", "Cratère et côte en privé", "Privater Krater & Küste", "私人火山口与海岸", "Cráter y costa privados", "Частный кратер и побережье"),
-    text: C("Ngorongoro rim lodge, a night under canvas, then a quiet Zanzibar villa with breakfast.", "Lodge kwenye rim ya Ngorongoro, usiku hemani, kisha villa Zanzibar.", "Lodge sur le rebord du Ngorongoro, une nuit sous toile, villa à Zanzibar.", "Lodge am Kraterrand, eine Nacht unter Canvas, Villa auf Sansibar.", "恩戈罗恩戈罗边缘小屋、一夜帐篷，再到桑给巴尔别墅。", "Lodge en el borde de Ngorongoro, una noche de lona y villa en Zanzíbar.", "Лодж на кромке Нгоронгоро, ночь под парусиной и вилла на Занзибаре."),
-    price: C("From $2,680", "Kuanzia $2,680", "Dès 2 680 $", "Ab 2.680 $", "起价 $2,680", "Desde $2,680", "От $2,680")
-  }
+    text: C(
+      "A private week for two. One night on the Ngorongoro rim, one night under canvas, then a quiet villa on Zanzibar with breakfast and the sea in front of you. The vehicle does not share the day with anyone else.",
+      "Wiki ya faragha kwa watu wawili. Usiku mmoja ukingoni mwa Ngorongoro, usiku mmoja hemani, kisha villa tulivu Zanzibar yenye kifungua kinywa na bahari mbele yenu. Gari halishiriki siku na mtu mwingine.",
+      "Une semaine privée pour deux. Une nuit sur le rebord du Ngorongoro, une nuit sous toile, puis une villa calme à Zanzibar, petit-déjeuner et mer devant vous. Le véhicule ne partage la journée avec personne.",
+      "Eine private Woche zu zweit. Eine Nacht am Ngorongoro-Rand, eine Nacht unter Canvas, dann eine ruhige Villa auf Sansibar mit Frühstück und Meer. Das Fahrzeug teilt den Tag mit niemandem.",
+      "两人的私人一周。恩戈罗恩戈罗边缘一晚，帐篷一晚，再到桑给巴尔安静别墅，含早餐，海就在面前。车辆不与他人共用。",
+      "Una semana privada para dos. Una noche en el borde de Ngorongoro, una noche bajo lona y luego una villa tranquila en Zanzíbar con desayuno y el mar delante. El vehículo no comparte el día.",
+      "Частная неделя для двоих. Ночь на кромке Нгоронгоро, ночь под парусиной, затем тихая вилла на Занзибаре с завтраком и морем. Машина ни с кем не делится.",
+    ),
+    points: [
+      C("Private 4×4 and guide, paced for two", "4×4 na kiongozi wa faragha, kwa kasi ya watu wawili", "4×4 et guide privés, au rythme de deux", "Privates 4×4 und Guide, im Tempo von zwei", "私人越野车与向导，按两人的节奏", "4×4 y guía privados, al ritmo de dos", "Частный 4×4 и гид, в темпе двоих"),
+      C("Ngorongoro rim lodge and one night in a tented camp", "Lodge ya ukingo wa Ngorongoro na usiku mmoja kwenye kambi ya hema", "Lodge du rebord du Ngorongoro et une nuit en camp sous tente", "Lodge am Kraterrand und eine Nacht im Zeltcamp", "恩戈罗恩戈罗边缘小屋，帐篷营一晚", "Lodge del borde de Ngorongoro y una noche en campamento", "Лодж на кромке Нгоронгоро и ночь в палаточном лагере"),
+      C("Three nights in a Zanzibar villa, breakfast included", "Usiku tatu kwenye villa ya Zanzibar, kifungua kinywa pamoja", "Trois nuits dans une villa à Zanzibar, petit-déjeuner inclus", "Drei Nächte in einer Sansibar-Villa, Frühstück inklusive", "桑给巴尔别墅三晚，含早餐", "Tres noches en una villa de Zanzíbar, desayuno incluido", "Три ночи на вилле Занзибара, завтрак включён"),
+      C("One bush dinner or sundowner, arranged with the camp", "Chakula kimoja cha porini au sundowner, kupangwa na kambi", "Un dîner en brousse ou un sundowner, organisé avec le camp", "Ein Buschdinner oder Sundowner, mit dem Camp abgesprochen", "一次丛林晚餐或日落酒会，由营地安排", "Una cena en el bush o un sundowner, con el campamento", "Один ужин в буше или сандаунер, с лагерем"),
+    ],
+    price: C("From $2,680 pp", "Kuanzia $2,680 kwa mtu", "Dès 2 680 $ / pers.", "Ab 2.680 $ p. P.", "起价 $2,680 /人", "Desde $2,680 / pers.", "От $2,680 / чел."),
+  },
 ];
 export const camps = [
   {
     title: C("Tanzania Safari Lodge", "Tanzania Safari Lodge", "Tanzania Safari Lodge", "Tanzania Safari Lodge", "坦桑尼亚Safari Lodge", "Tanzania Safari Lodge", "Tanzania Safari Lodge"),
-    place: C("Karatu · Ngorongoro highlands", "Karatu · milima ya Ngorongoro", "Karatu · hauts plateaux du Ngorongoro", "Karatu · Ngorongoro-Hochland", "卡拉图 · 恩戈罗恩戈罗高地", "Karatu · altiplanos de Ngorongoro", "Карату · нагорье Нгоронгоро"),
+    place: C("Arusha · Tengeru", "Arusha · Tengeru", "Arusha · Tengeru", "Arusha · Tengeru", "阿鲁沙 · 滕盖鲁", "Arusha · Tengeru", "Аруша · Тенгеру"),
     kind: C("Lodge", "Lodge", "Lodge", "Lodge", "小屋", "Lodge", "Лодж"),
-    image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    image: "/camps/tanzania-safari.jpg"
   },
   {
     title: C("Lake Duluti Lodge", "Lake Duluti Lodge", "Lake Duluti Lodge", "Lake Duluti Lodge", "杜卢蒂湖Lodge", "Lake Duluti Lodge", "Лодж озера Дулути"),
     place: C("Arusha · Lake Duluti", "Arusha · Ziwa Duluti", "Arusha · lac Duluti", "Arusha · Duluti-See", "阿鲁沙 · 杜卢蒂湖", "Arusha · lago Duluti", "Аруша · озеро Дулути"),
     kind: C("Lodge", "Lodge", "Lodge", "Lodge", "小屋", "Lodge", "Лодж"),
-    image: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=1200&q=80"
+    image: "/camps/duluti.jpg"
   },
   {
     title: C("Four Seasons Safari Lodge", "Four Seasons Safari Lodge", "Four Seasons Safari Lodge", "Four Seasons Safari Lodge", "四季Safari Lodge", "Four Seasons Safari Lodge", "Four Seasons Safari Lodge"),
     place: C("Serengeti National Park", "Hifadhi ya Taifa ya Serengeti", "Parc national du Serengeti", "Serengeti-Nationalpark", "塞伦盖蒂国家公园", "Parque Nacional Serengeti", "Национальный парк Серенгети"),
     kind: C("Luxury lodge", "Lodge ya starehe", "Lodge de luxe", "Luxus-Lodge", "奢华小屋", "Lodge de lujo", "Люкс-лодж"),
-    image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    image: "/camps/four-seasons.jpg"
   },
   {
     title: C("Serengeti grass camp", "Kambi ya nyasi Serengeti", "Camp d’herbe du Serengeti", "Serengeti-Grascamp", "塞伦盖蒂草原营地", "Campamento de hierba Serengeti", "Травяной лагерь Серенгети"),
     place: C("Central Serengeti", "Serengeti ya kati", "Serengeti central", "Zentrales Serengeti", "塞伦盖蒂中部", "Serengeti central", "Центральный Серенгети"),
     kind: C("Tented camp", "Kambi ya hema", "Camp sous tente", "Zeltcamp", "帐篷营", "Campamento de lona", "Палаточный лагерь"),
-    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80"
+    image: "/camps/serengeti.jpg"
   },
   {
     title: C("Crater rim lodge", "Lodge ya crater rim", "Lodge du rebord du cratère", "Krater-Rand-Lodge", "火山口边缘小屋", "Lodge del borde del cráter", "Лодж на кромке кратера"),
     place: C("Ngorongoro", "Ngorongoro", "Ngorongoro", "Ngorongoro", "恩戈罗恩戈罗", "Ngorongoro", "Нгоронгоро"),
     kind: C("Lodge", "Lodge", "Lodge", "Lodge", "小屋", "Lodge", "Лодж"),
-    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1200&q=80"
+    image: "/camps/crater.jpg"
   },
   {
     title: C("Tarangire baobab camp", "Kambi ya baobab Tarangire", "Camp baobab de Tarangire", "Tarangire-Baobab-Camp", "塔兰吉雷猴面包营地", "Campamento baobab Tarangire", "Лагерь баобабов Тарангире"),
     place: C("Tarangire", "Tarangire", "Tarangire", "Tarangire", "塔兰吉雷", "Tarangire", "Тарангире"),
     kind: C("Tented camp", "Kambi ya hema", "Camp sous tente", "Zeltcamp", "帐篷营", "Campamento de lona", "Палаточный лагерь"),
-    image: "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=1200&q=80"
+    image: "/camps/tarangire.jpg"
   },
   {
     title: C("Arusha garden lodge", "Lodge ya bustani Arusha", "Lodge jardin d’Arusha", "Arusha-Gartenlodge", "阿鲁沙花园小屋", "Lodge jardín de Arusha", "Садовый лодж Аруши"),
     place: C("Arusha", "Arusha", "Arusha", "Arusha", "阿鲁沙", "Arusha", "Аруша"),
     kind: C("Lodge", "Lodge", "Lodge", "Lodge", "小屋", "Lodge", "Лодж"),
-    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    image: "/camps/arusha.jpg"
   },
   {
     title: C("Zanzibar tide villa", "Villa ya wimbi Zanzibar", "Villa de marée à Zanzibar", "Sansibar-Gezeiten-Villa", "桑给巴尔潮汐别墅", "Villa de marea en Zanzíbar", "Вилла прилива Занзибар"),
     place: C("East coast, Zanzibar", "Pwani mashariki, Zanzibar", "Côte est, Zanzibar", "Ostküste, Sansibar", "桑给巴尔东岸", "Costa este, Zanzíbar", "Восточный берег, Занзибар"),
     kind: C("Beach villa", "Villa ya pwani", "Villa de plage", "Strandvilla", "海滨别墅", "Villa de playa", "Пляжная вилла"),
-    image: "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1200&q=80"
+    image: "/camps/zanzibar.jpg"
   },
   {
     title: C("Mara river camp", "Kambi ya mto Mara", "Camp de la rivière Mara", "Mara-Fluss-Camp", "马拉河营地", "Campamento del río Mara", "Лагерь реки Мара"),
     place: C("Maasai Mara / Kenya", "Maasai Mara / Kenya", "Maasai Mara / Kenya", "Maasai Mara / Kenia", "马赛马拉 / 肯尼亚", "Maasai Mara / Kenia", "Масаи-Мара / Кения"),
     kind: C("Tented camp", "Kambi ya hema", "Camp sous tente", "Zeltcamp", "帐篷营", "Campamento de lona", "Палаточный лагерь"),
-    image: "https://images.unsplash.com/photo-1547970810-dcad79a56c1e?auto=format&fit=crop&w=1200&q=80"
+    image: "/camps/mara.jpg"
   }
 ];
 export const foods = [
   {
     title: C("Nyama choma & ugali", "Nyama choma na ugali", "Nyama choma et ugali", "Nyama choma & Ugali", "烤肉与乌加利", "Nyama choma y ugali", "Ньяма чома и угали"),
-    text: C("Fire-grilled meat with ugali, kachumbari and a cold drink after the afternoon drive.", "Nyama ya moto na ugali, kachumbari na kinywaji baada ya drive.", "Viande grillée, ugali, kachumbari et une boisson froide.", "Gegrilltes Fleisch mit Ugali, Kachumbari und einem kalten Drink.", "炭火烤肉配乌加利、卡琼巴里与冷饮。", "Carne a la brasa con ugali, kachumbari y una bebida fría.", "Мясо на огне, угали, качумбари и холодный напиток.")
+    text: C("Fire-grilled meat with ugali, kachumbari and a cold drink after the afternoon drive.", "Nyama ya moto na ugali, kachumbari na kinywaji baada ya drive.", "Viande grillée, ugali, kachumbari et une boisson froide.", "Gegrilltes Fleisch mit Ugali, Kachumbari und einem kalten Drink.", "炭火烤肉配乌加利、卡琼巴里与冷饮。", "Carne a la brasa con ugali, kachumbari y una bebida fría.", "Мясо на огне, угали, качумбари и холодный напиток."),
+    image: "/food/nyama-choma.png"
   },
   {
     title: C("Zanzibar spices", "Viungo vya Zanzibar", "Épices de Zanzibar", "Sansibar-Gewürze", "桑给巴尔香料", "Especias de Zanzíbar", "Пряности Занзибара"),
-    text: C("Pilau, coconut fish and clove tea — island flavours after the parks.", "Pilau, samaki wa nazi na chai ya karafuu.", "Pilau, poisson à la coco et thé au clou de girofle.", "Pilau, Kokosfisch und Nelkentee.", "抓饭、椰汁鱼与丁香茶——公园之后的岛屿风味。", "Pilau, pescado al coco y té de clavo.", "Пилау, рыба в кокосе и чай с гвоздикой.")
+    text: C("Pilau, coconut fish and clove tea — island flavours after the parks.", "Pilau, samaki wa nazi na chai ya karafuu.", "Pilau, poisson à la coco et thé au clou de girofle.", "Pilau, Kokosfisch und Nelkentee.", "抓饭、椰汁鱼与丁香茶——公园之后的岛屿风味。", "Pilau, pescado al coco y té de clavo.", "Пилау, рыба в кокосе и чай с гвоздикой."),
+    image: "/food/zanzibar.png"
   },
   {
     title: C("Bush breakfast", "Breakfast porini", "Petit-déjeuner dans le bush", "Bush-Frühstück", "荒野早餐", "Desayuno en el bush", "Завтрак в саванне"),
-    text: C("Coffee, eggs and fruit set out on the plains while the light is still gold.", "Kahawa, mayai na matunda kwenye nyanda wakati mwanga bado ni wa dhahabu.", "Café, œufs et fruits sur la plaine, lumière encore dorée.", "Kaffee, Eier und Obst auf der Ebene im goldenen Licht.", "咖啡、鸡蛋与水果摆在草原上，光线仍是金色。", "Café, huevos y fruta en la llanura con luz dorada.", "Кофе, яйца и фрукты на равнине в золотом свете.")
+    text: C("Coffee, eggs and fruit set out on the plains while the light is still gold.", "Kahawa, mayai na matunda kwenye nyanda wakati mwanga bado ni wa dhahabu.", "Café, œufs et fruits sur la plaine, lumière encore dorée.", "Kaffee, Eier und Obst auf der Ebene im goldenen Licht.", "咖啡、鸡蛋与水果摆在草原上，光线仍是金色。", "Café, huevos y fruta en la llanura con luz dorada.", "Кофе, яйца и фрукты на равнине в золотом свете."),
+    image: "/food/bush-breakfast.png",
+    pos: "bottom"
   },
   {
     title: C("Maasai homestead meal", "Chakula cha kaya ya Maasai", "Repas dans un foyer maasaï", "Mahlzeit im Maasai-Gehöft", "马赛家园餐", "Comida en un hogar maasái", "Еда в усадьбе масаи"),
-    text: C("Shared stew, stories and tea in a village visit arranged with the family.", "Mchuzi, hadithi na chai katika tembeleo la kijiji.", "Ragoût partagé, récits et thé chez une famille.", "Geteilter Eintopf, Geschichten und Tee bei der Familie.", "与家庭分享炖菜、故事与茶。", "Guiso compartido, relatos y té en una visita familiar.", "Общее рагу, истории и чай в гостях у семьи.")
+    text: C("Shared stew, stories and tea in a village visit arranged with the family.", "Mchuzi, hadithi na chai katika tembeleo la kijiji.", "Ragoût partagé, récits et thé chez une famille.", "Geteilter Eintopf, Geschichten und Tee bei der Familie.", "与家庭分享炖菜、故事与茶。", "Guiso compartido, relatos y té en una visita familiar.", "Общее рагу, истории и чай в гостях у семьи."),
+    image: "/food/maasai-meal.png"
   }
 ];
 export const testimonials = [
@@ -660,7 +743,7 @@ export const hikingMountains = [
       "Uhuru Peak en Kibo — el punto más alto de África. Equipos con licencia y las rutas con más chance de cumbre.",
       "Ухуру-пик на Кибо — высшая точка Африки. Лицензированные команды и лучшие маршруты к вершине.",
     ),
-    image: "https://images.unsplash.com/photo-1609198092458-38a293c7ac4b?auto=format&fit=crop&w=1400&q=80",
+    image: "/peaks/kilimanjaro.png",
     routes: [
       {
         title: C("Marangu route · 5–6 days", "Njia ya Marangu · siku 5–6", "Voie Marangu · 5–6 jours", "Marangu-Route · 5–6 Tage", "马兰古路线 · 5–6天", "Ruta Marangu · 5–6 días", "Маршрут Марангу · 5–6 дней"),
@@ -694,7 +777,7 @@ export const hikingMountains = [
       "Cumbre empinada sobre Arusha. Fauna en el camino, borde del cráter y la mejor preparación antes del Kilimanjaro.",
       "Крутая вершина над Арушей. Животные на тропе, кромка кратера и лучшая подготовка к Килиманджаро.",
     ),
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    image: "/peaks/meru.png",
     routes: [
       {
         title: C("3-day trek", "Trek ya siku 3", "Trek 3 jours", "3-Tage-Trek", "3天徒步", "Trek de 3 días", "3-дневный трек"),
@@ -720,7 +803,7 @@ export const hikingMountains = [
       "Volcán activo, sagrado para los maasái. Subida de noche, cráter al amanecer y descanso en el lago Natron.",
       "Действующий вулкан, священный для масаи. Ночной подъём, кратер на рассвете, затем озеро Натрон.",
     ),
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80",
+    image: "/peaks/lengai.png",
     routes: [
       {
         title: C("Night climb · 1 day", "Kupanda usiku · siku 1", "Ascension de nuit · 1 jour", "Nachtaufstieg · 1 Tag", "夜攀 · 1天", "Ascenso nocturno · 1 día", "Ночной подъём · 1 день"),
@@ -748,7 +831,7 @@ export const nav = [
 
   {
     href: "/about",
-    label: C("About", "Sisi", "À propos", "Über uns", "关于", "Nosotros", "О нас")
+    label: C("About us", "Kuhusu sisi", "À propos de nous", "Über uns", "关于我们", "Sobre nosotros", "О нас")
   },
   {
     href: "/destinations",
@@ -797,6 +880,10 @@ export const nav = [
   {
     href: "/gallery",
     label: C("Gallery", "Picha", "Galerie", "Galerie", "图库", "Galería", "Галерея")
+  },
+  {
+    href: "/blog",
+    label: C("Blog", "Blogu", "Blog", "Blog", "博客", "Blog", "Блог")
   },
   {
     href: "/faq",

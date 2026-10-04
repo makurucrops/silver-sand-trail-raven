@@ -43,6 +43,13 @@ const flags: Record<Lang, ReactElement> = {
       <rect y="16" width="36" height="8" fill="#ffce00" />
     </svg>
   ),
+  nl: (
+    <svg viewBox="0 0 36 24" className="h-full w-full">
+      <rect width="36" height="8" fill="#ae1c28" />
+      <rect y="8" width="36" height="8" fill="#fff" />
+      <rect y="16" width="36" height="8" fill="#21468b" />
+    </svg>
+  ),
   zh: (
     <svg viewBox="0 0 36 24" className="h-full w-full">
       <rect width="36" height="24" fill="#de2910" />
